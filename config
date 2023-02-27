@@ -1,0 +1,37 @@
+# vim: ft=sshconfig
+
+Host mia.ceit.aut.infra
+  Hostname 172.23.132.221
+
+Host mirror.aut.infra
+  Hostname 172.25.154.163
+
+Host backnet.aut.infra
+  Hostname 172.25.157.227
+
+Host internet-prod.aut.infra
+  Hostname 172.25.154.54
+
+Host internet-test.aut.infra
+  Hostname 172.25.154.53
+
+Host radius.aut.infra
+  Hostname 172.16.4.5
+
+Host radius-old.aut.infra
+  Hostname 172.16.4.9
+
+Host vpn-ban.aut.infra
+  Hostname 172.25.157.214
+
+Host monnet.aut.infra
+  Hostname 172.16.4.133
+
+Host grafana-old.aut.infra
+  Hostname 172.16.4.134
+
+Host prometheus.aut.infra
+  Hostname 172.16.4.11
+
+Host grafana.aut.infra
+  Hostname 172.16.4.12
