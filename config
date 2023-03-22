@@ -35,3 +35,6 @@ Host prometheus.aut.infra
 
 Host grafana.aut.infra
   Hostname 172.16.4.12
+
+Host netflow.aut.infra
+  Hostname 192.168.2.195
