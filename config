@@ -1,8 +1,5 @@
 # vim: ft=sshconfig
 
-Host mia.ceit.aut.infra
-  Hostname 172.23.132.221
-
 Host mirror.aut.infra
   Hostname 172.25.154.163
 
