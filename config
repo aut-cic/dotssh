@@ -10,7 +10,7 @@ Host internet-prod.aut.infra
   Hostname 172.25.154.54
 
 Host internet-test.aut.infra
-  Hostname 172.25.154.53
+  Hostname 172.25.154.56
 
 Host radius.aut.infra
   Hostname 172.16.4.5
