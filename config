@@ -9,10 +9,6 @@ Host backnet.aut.infra
 Host internet-prod.aut.infra
   Hostname 172.25.154.54
 
-Host internet-test.aut.infra
-  ProxyCommand ssh internet-prod.aut.infra -W %h:%p
-  Hostname 172.25.154.56
-
 Host radius.aut.infra
   Hostname 172.16.4.5
 
