@@ -9,11 +9,11 @@ Host backnet.aut.infra
 Host internet-prod.aut.infra
   Hostname 172.25.154.54
 
+Host radius-new.aut.infra
+  Hostname 172.16.4.6
+
 Host radius.aut.infra
   Hostname 172.16.4.5
-
-Host radius-old.aut.infra
-  Hostname 172.16.4.9
 
 Host vpn-ban.aut.infra
   Hostname 172.25.157.214
