@@ -18,17 +18,12 @@ Host radius.aut.infra
 Host vpn-ban.aut.infra
   Hostname 172.25.157.214
 
-Host monnet.aut.infra
-  Hostname 172.16.4.133
-
-Host grafana-old.aut.infra
+# Monitoring and the captive portal, replacing monnet (172.16.4.133), the old
+# grafana on this same address, prometheus (172.16.4.11) and grafana
+# (172.16.4.12). Provisioned by the `cap` play in the ansible repository.
+Host cap.aut.infra
   Hostname 172.16.4.134
-
-Host prometheus.aut.infra
-  Hostname 172.16.4.11
-
-Host grafana.aut.infra
-  Hostname 172.16.4.12
+  User cap
 
 Host netflow.aut.infra
   Hostname 192.168.2.195
