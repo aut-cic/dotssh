@@ -6,7 +6,9 @@ Host mirror.aut.infra
 Host backnet.aut.infra
   Hostname 172.25.157.227
 
-Host internet-prod.aut.infra
+# The machine calls itself internet.aut.infra and so does the ansible
+# inventory; internet-prod is kept as an alias so existing habits still work.
+Host internet.aut.infra internet-prod.aut.infra
   Hostname 172.25.154.54
 
 Host radius-new.aut.infra
